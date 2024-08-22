@@ -54,7 +54,7 @@ const ChildA = () => {
               className={styles.remove}
               onClick={() => handleRemove(pd.id)}
             >
-              {"Remove"}
+              {"REMOVE"}
             </h4>
             <br />
             <br />
