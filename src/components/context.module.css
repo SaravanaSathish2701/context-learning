@@ -1,0 +1,251 @@
+.img {
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+.h1 {
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.p {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.category,
+.rating {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.quantity {
+  margin-top: 10px;
+  margin-left: 85px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.price {
+  margin-top: -25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 110px;
+}
+
+.remove {
+  margin-top: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sub {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ship {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.total {
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .img {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    justify-items: center;
+  }
+
+  .h1 {
+    font-size: 26px;
+  }
+
+  .p {
+    font-size: 18px;
+  }
+
+  .category,
+  .rating {
+    font-size: 20px;
+  }
+
+  .quantity {
+    font-size: 18px;
+    margin-left: 200px;
+  }
+
+  .price {
+    font-size: 20px;
+    margin-left: 220px;
+  }
+
+  .remove {
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .sub {
+    font-size: 24px;
+  }
+
+  .ship {
+    font-size: 24px;
+  }
+
+  .total {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 769px) {
+  .img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+
+  .h1 {
+    font-size: 28px;
+    margin-top: -200px;
+    margin-left: 40%;
+    max-width: 40%;
+  }
+
+  .p {
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: -5px;
+    max-width: 40%;
+  }
+
+  .category,
+  .rating {
+    font-size: 22px;
+    margin-left: 40%;
+    margin-top: -10px;
+    max-width: 40%;
+  }
+
+  .quantity {
+    top: -50%;
+    position: relative;
+    font-size: 20px;
+    left: 4%;
+  }
+
+  .price {
+    top: -50%;
+    position: relative;
+    font-size: 20px;
+    left: 3%;
+  }
+
+  .remove {
+    top: -18%;
+    left: 4%;
+    position: relative;
+    font-size: 20px;
+  }
+
+  .sub {
+    font-size: 22px;
+  }
+
+  .ship {
+    font-size: 22px;
+  }
+
+  .total {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img {
+    height: 300;
+    width: 300;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+
+  .h1 {
+    font-size: 28px;
+    margin-top: -200px;
+    margin-left: 32%;
+    max-width: 42%;
+  }
+
+  .p {
+    font-size: 20px;
+    margin-left: 32%;
+    margin-top: -5px;
+    max-width: 42%;
+  }
+
+  .category,
+  .rating {
+    font-size: 22px;
+    margin-left: 32%;
+    margin-top: -10px;
+    max-width: 40%;
+  }
+
+  .quantity {
+    font-size: 20px;
+    margin-left: 78%;
+    margin-top: -25px;
+    max-width: 20%;
+  }
+
+  .price {
+    font-size: 22px;
+    margin-left: 80%;
+    margin-top: -30px;
+    max-width: 20%;
+  }
+
+  .remove {
+    font-size: 22px;
+    margin-left: 82%;
+    margin-top: -5px;
+    max-width: 15%;
+  }
+
+  .sub {
+    font-size: 30px;
+  }
+
+  .ship {
+    font-size: 30px;
+  }
+
+  .total {
+    font-size: 40px;
+  }
+}
