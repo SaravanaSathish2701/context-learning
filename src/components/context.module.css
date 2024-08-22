@@ -156,19 +156,17 @@
     top: -50%;
     position: relative;
     font-size: 20px;
-    left: 4%;
   }
 
   .price {
     top: -50%;
     position: relative;
     font-size: 20px;
-    left: 3%;
   }
 
   .remove {
     top: -18%;
-    left: 4%;
+    left: 2%;
     position: relative;
     font-size: 20px;
   }
